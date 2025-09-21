@@ -1,0 +1,20 @@
+{
+  "title": "Post-Quantum Cryptography via High-Dimensional Geometry",
+  "upload_type": "software",
+  "description": "A reproducible cryptographic framework based on SU(n), SO(n), and quaternionic rotations. Includes generators, visualizations, and tests for post-quantum primitives.",
+  "creators": [
+    {
+      "name": "Dima",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "cryptography",
+    "post-quantum",
+    "SU(n)",
+    "SO(n)",
+    "geometry",
+    "open-access"
+  ]
+}
