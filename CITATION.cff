@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Если вы используете этот проект, пожалуйста, цитируйте его следующим образом:"
+title: "Post-Quantum ND Crypto"
+authors:
+  - family-names: Grogdima
+    given-names: Dima
+    orcid: https://orcid.org/0000-0000-0000-0000
+license: MIT
+repository-code: https://github.com/grogdima625-ctrl/postquantum-nd-crypto
+keywords:
+  - post-quantum
+  - cryptography
+  - SO(n)
+  - SU(n)
+  - geometry
