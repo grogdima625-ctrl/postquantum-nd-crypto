@@ -1,41 +1,53 @@
-# Concept: Post-Quantum Cryptography via n-Dimensional Geometric Transformations
+# Conceptual Framework: Post-Quantum Cryptography via n-Dimensional Geometry
 
-## 🔐 Abstract
+## Abstract
 
-This document outlines a cryptographic framework based on transformations in n-dimensional spaces, where dimensionality itself acts as a cryptographic variable. The protocol leverages non-commutative groups such as SO(n), SU(n), and potentially exceptional Lie groups (e.g. G₂, F₄) to construct secure key exchange and encryption mechanisms resistant to quantum attacks.
+This protocol introduces a reproducible cryptographic framework based on high-dimensional rotation groups, including SU(n), SO(n), and quaternionic structures. These mathematical primitives are designed to resist quantum attacks by leveraging geometric complexity and algebraic invariants.
 
-## 📐 Mathematical Foundation
+## Components
 
-- **Group Structure**: SO(n) and SU(n) are non-abelian Lie groups with rich geometric and algebraic properties.
-- **Dimensionality**: The dimension `n` is treated as a cryptographic parameter, influencing the complexity and structure of the key space.
-- **Representation**: Group elements are represented via rotation matrices, quaternions (SU(2)), or higher-dimensional analogs.
-- **Operation**: Key generation and encryption are performed via group composition and action on fixed vectors or tensors.
+- **SU(n) Generator**: Produces unitary matrices with determinant 1, suitable for quantum-safe key exchange.
+- **SO(n) Generator**: Constructs orthogonal matrices with determinant +1, used for secure transformations.
+- **Quaternionic Rotations**: Encodes 3D and 4D rotations for compact cryptographic representations.
 
-## 🔄 Protocol Sketch
+## Reproducibility
 
-1. **Key Generation**:
-   - Each party selects a private pair of group elements in SO(n) or SU(n).
-   - The public key is derived from their composition or action on a known base vector.
+All components are versioned, tested, and licensed under MIT. The project includes:
 
-2. **Key Exchange**:
-   - Parties exchange public keys and apply their private transformations to derive a shared secret.
-   - The dimensionality `n` may be fixed, negotiated, or randomized per session.
+- Source code (`src/`)
+- Tests (`tests/`)
+- Documentation (`docs/`)
+- Metadata (`metadata.json`)
+- License (`LICENSE`)
 
-3. **Encryption**:
-   - Messages are encoded via geometric transformations in the selected nD space.
-   - Optional: use topological invariants or tensor embeddings for added obfuscation.
+## Cryptographic Philosophy / Криптографическая философия
 
-## 🧠 Security Considerations
+This protocol is not merely a collection of mathematical operations — it is a geometric fortress built in high-dimensional space. Its resistance to quantum decryption stems from the very nature of the transformations it employs.
 
-- **Quantum Resistance**: Non-commutative structure and high-dimensional complexity hinder quantum algorithms like Shor and Grover.
-- **Obfuscation**: Dimensionality and group selection can be hidden or randomized, increasing attack difficulty.
-- **Scalability**: Higher dimensions offer increased entropy and adaptability to threat levels.
+### 🔐 Aphorisms and Analogies
 
-## 🧪 Status
+- **"The quantum sword cannot cut a multidimensional shadow."**  
+  → Quantum algorithms like Shor and Grover are designed for algebraic structures. They falter when faced with geometric transformations that lack linear shortcuts.
 
-This concept is in early development. Mathematical modeling, simulation, and prototype implementation are ongoing.
+- **"If your key is a rotation in 100 dimensions, then breaking it is like trying to open a vault with a rope."**  
+  → Traditional and quantum attacks rely on rigid tools (factorization, search), but your system requires navigating flexible, curved spaces — where such tools are useless.
 
-## 🧠 Author
+- **"Cryptography of the future is built not on numbers, but on space."**  
+  → This protocol leverages topological complexity, not just numerical hardness. It shifts the paradigm from arithmetic to geometry.
 
-Concept by **Dima**, published to establish authorship and priority.  
-Date: **September 21, 2025**
+- **"The quantum thief gets lost in the mirrored labyrinth of SU(n)."**  
+  → Unitary matrices reflect and rotate in ways that preserve structure but obscure orientation — making reverse engineering nearly impossible.
+
+- **"Orthogonality is armor; determinant +1 is its seal."**  
+  → SO(n) matrices preserve length and angle, forming a mathematically perfect shield against distortion.
+
+## Citation
+
+This protocol is formally published and citable via Zenodo:
+
+**DOI**: [10.5281/zenodo.17170276](https://doi.org/10.5281/zenodo.17170276)
+# Conceptual Framework: Post-Quantum Cryptography via n-Dimensional Geometry
+
+**Author**: Dima Grog (grogdima625-ctrl)  
+**Date**: 21 September 2025  
+
